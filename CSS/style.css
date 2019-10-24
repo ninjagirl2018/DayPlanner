@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+textarea {
+  background: transparent;
+  border: 1px solid darkgray;
+  resize: none;
+  color: rgb(104, 98, 98);
+  padding: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: rgb(104, 98, 98);
+  border-radius: 0;
+  border-bottom: 10px solid rgb(104, 98, 98);
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.row{ 
+  text-align: center;
+  border-radius: 20px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 100px;
+  border-top: 1px solidrgb(104, 98, 98);
+}
+
+.hour {
+  background-color: #ffffff;
+  color: rgb(104, 98, 98);
+  border-top: 1px solid rgb(104, 98, 98);
+}
+
+.done {
+  background-color: rgb(255, 235, 184);
+  color: white;
+}
+
+.now {
+  background-color: rgb(250, 194, 167);
+  color: white;
+}
+
+.future {
+  background-color: rgb(167, 250, 210);
+  color: white;
+}
+
+.storeEvent {
+  border: 1px solid rgb(104, 98, 98);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06AED5;
+  color: white;
+}
+
+.storeEvent i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
